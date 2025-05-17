@@ -1,6 +1,6 @@
-CREATE TABLE employee {
+CREATE TABLE employee (
     id INTERGER PRIMARY KEY AUTOINCREMENT,
     name TEXT NOT NULL,
     position TEXT NOT NULL,
-    department TEXT NOT NULL,
-}
+    department TEXT NOT NULL
+)
