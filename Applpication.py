@@ -1,6 +1,7 @@
-from fastapi import fastapi
+from fastapi import FastAPI
 import sqlite3
 
+app = FastAPI()
 def get_employee():
     connection = sqlite3.connect("employee.db.sqlite")
     cursor = connection.cursor()
